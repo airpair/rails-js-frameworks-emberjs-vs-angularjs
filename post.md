@@ -304,7 +304,7 @@ Maybe this error message isn't clear enough, but now that we know Ember requires
       { id: 2, first_name: 'Jane', last_name: 'Doe' },
     ]
 
-Solving this is not that hard, but unfortunately it involves making server-side adjusments. Rails has already generated a couple of `json.builder` templates to format answers in case of datasets (`index.json.jbuilder`) and single objects (`show.json.jbuilder`). If we adjust these two `jbuilder` templates to include the root node, everything should work as expected.
+Solving this is not that hard, but unfortunately it involves making server-side adjustments. Rails has already generated a couple of `json.builder` templates to format answers in case of datasets (`index.json.jbuilder`) and single objects (`show.json.jbuilder`). If we adjust these two `jbuilder` templates to include the root node, everything should work as expected.
 
 <!--code lang=javascript linenums=true-->
 
